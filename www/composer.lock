@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5cda7c487f77c4692c24839a0a464af0",
-    "content-hash": "b0bd3c10e417f2661c60628edd6acafa",
+    "content-hash": "92c97ff7dc380ce0f88b33862bf0e19a",
     "packages": [
         {
             "name": "etdsolutions/jquery",
-            "version": "dev-master",
+            "version": "1.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/etd-framework/jquery.git",
-                "reference": "82a26eeb100cc50841a6f338b08205f0988d7d48"
+                "reference": "e8c5a994e835f5218c810dd30e13c15ec2dd71c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/etd-framework/jquery/zipball/82a26eeb100cc50841a6f338b08205f0988d7d48",
-                "reference": "82a26eeb100cc50841a6f338b08205f0988d7d48",
+                "url": "https://api.github.com/repos/etd-framework/jquery/zipball/e8c5a994e835f5218c810dd30e13c15ec2dd71c7",
+                "reference": "e8c5a994e835f5218c810dd30e13c15ec2dd71c7",
                 "shasum": ""
             },
             "type": "library",
@@ -28,20 +27,20 @@
             ],
             "description": "Shim repository for jQuery",
             "homepage": "http://jquery.com",
-            "time": "2015-09-26 08:06:27"
+            "time": "2016-06-03T13:03:03+00:00"
         },
         {
             "name": "fortawesome/font-awesome",
-            "version": "v4.5.0",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "fddd2c240452e6c8990c4ef75e0265b455aa7968"
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/fddd2c240452e6c8990c4ef75e0265b455aa7968",
-                "reference": "fddd2c240452e6c8990c4ef75e0265b455aa7968",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
                 "shasum": ""
             },
             "require-dev": {
@@ -51,7 +50,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0.x-dev"
+                    "dev-master": "4.6.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -76,20 +75,20 @@
                 "font",
                 "icon"
             ],
-            "time": "2015-11-30 17:28:02"
+            "time": "2016-10-24T15:52:54+00:00"
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v3.3.6",
+            "version": "v3.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a"
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/81df608a40bf0629a1dc08e584849bb1e43e0b7a",
-                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
                 "shasum": ""
             },
             "replace": {
@@ -127,15 +126,13 @@
                 "responsive",
                 "web"
             ],
-            "time": "2015-11-24 19:37:05"
+            "time": "2016-07-25T15:51:55+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "etdsolutions/jquery": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
