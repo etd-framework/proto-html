@@ -1,8 +1,7 @@
 {
-  "name": "maxencedelattre/proto-html",
-  "type": "project",
+  "name": "etdsolutions/proto-html",
   "description": "Basic HTML prototype",
-  "license": "proprietary",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Maxence Delattre",
@@ -12,7 +11,7 @@
   "require": {
     "twbs/bootstrap": "~3.0",
     "fortawesome/font-awesome": "~4.0",
-    "etdsolutions/jquery": "@dev"
+    "etdsolutions/jquery": "~1.0"
   },
   "scripts": {
     "post-install-cmd": [
