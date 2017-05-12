@@ -15,9 +15,11 @@
   },
   "scripts": {
     "post-install-cmd": [
+      "mkdir -p fonts",
       "cp -rf vendor/fortawesome/font-awesome/fonts/* fonts/"
     ],
     "post-update-cmd": [
+      "mkdir -p fonts",
       "cp -rf vendor/fortawesome/font-awesome/fonts/* fonts/"
     ]
   }

@@ -12,9 +12,5 @@
 !/.gitignore
 
 # Composer
-composer.phar
-composer
-www/vendor/
-
-# FA
-www/fonts/*ontawesome*
+vendor/
+fonts/
