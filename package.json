@@ -1,0 +1,28 @@
+{
+  "name": "@etd-framework/proto-html",
+  "version": "1.0.0",
+  "description": "Basic HTML prototype",
+  "homepage": "https://github.com/etd-framework/proto-html",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etd-framework/proto-html.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sync": "^0.6.2",
+    "postcss-cli": "^2.6.0",
+    "postcss-flexbugs-fixes": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}

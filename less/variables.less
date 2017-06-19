@@ -3,6 +3,7 @@
 // --------------------------------------------------
 
 
+
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
@@ -14,7 +15,8 @@
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         darken(#428bca, 6.5%); // #337ab7
+@brand-primary:         #215f8c;
+@brand-secondary:       #0c2f48;
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -42,7 +44,7 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "Gafata", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -102,7 +104,7 @@
 @line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small:         1.5;
 
-@border-radius-base:        4px;
+@border-radius-base:        0;
 @border-radius-large:       6px;
 @border-radius-small:       3px;
 
@@ -206,7 +208,7 @@
 @input-color-placeholder:        #999;
 
 //** Default `.form-control` height
-@input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 2);
+@input-height-base:              40px; // (@line-height-computed + (@padding-base-vertical * 2) + 2);
 //** Large `.form-control` height
 @input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);
 //** Small `.form-control` height

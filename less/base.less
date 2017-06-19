@@ -1,10 +1,52 @@
 /**
  * @package     etd-framework/proto-html
  *
- * @version     1.0.0
+ * @version     1.1.0
  * @copyright   Copyright (C) 2017 ETD Solutions. Tous droits réservés.
  * @license     http://www.apache.org/licenses/
  * @author      ETD Solutions
  */
 
-// Insert here your general LESS code
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media screen and (max-width: @screen-xs-max) {font-size: 12px;}
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background-attachment: local;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bg-img-fixed {
+  &:extend(.bg-img);
+  background-attachment: fixed;
+}
+
+img:not([src]) {
+  visibility: hidden;
+}
+
+@-moz-document url-prefix() {
+  img:-moz-loading {
+    visibility: hidden;
+  }
+}
+
+.lazy {
+  opacity: 0;
+  .transition(opacity 0.5s ease-in-out 0.5s);
+
+  &.loaded {
+    opacity: 1;
+  }
+}
